@@ -10,7 +10,6 @@ import {
   AccordionItem,
   AccordionButton,
   AccordionPanel,
-  AccordionIcon,
 } from '@chakra-ui/react'
 
 import compactFormat from 'cldr-compact-number';
@@ -31,7 +30,7 @@ const WatchPage = () => {
     }
     useEffect(()=>{
     fetchVideoDetails()
-    },[])
+    })
   return (
 
 <Box w={"100%"}  >

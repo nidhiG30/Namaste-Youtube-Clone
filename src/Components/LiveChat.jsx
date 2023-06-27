@@ -1,9 +1,8 @@
-import { Box, Stack } from '@chakra-ui/react'
+import { Stack } from '@chakra-ui/react'
 import React, { useEffect } from 'react'
 import LiveComment from './LiveComment'
 import { useDispatch, useSelector } from 'react-redux'
 import { setLiveComment } from '../Redux/Slice/liveChatSlice'
-import { useId } from 'react'
 import generate from './Helper/NameGenrator'
 import sentence from './Helper/SentenceGenrator'
 const LiveChat = () => {

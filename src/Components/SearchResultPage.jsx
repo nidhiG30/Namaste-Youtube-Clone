@@ -1,4 +1,4 @@
-import { Box, HStack, Heading, Image, LinkBox, Text } from '@chakra-ui/react';
+import { Box } from '@chakra-ui/react';
 import React, { useEffect, useState } from 'react'
 import { Link, useSearchParams } from "react-router-dom";
 import SearchVideo from './SearchVideo';

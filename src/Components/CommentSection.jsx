@@ -1,6 +1,5 @@
 import { Box } from '@chakra-ui/react'
 import React from 'react'
-import Comments from './Comments'
 import CommentList from './CommentList'
 
 

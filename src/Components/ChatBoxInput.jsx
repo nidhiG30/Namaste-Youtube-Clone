@@ -1,4 +1,4 @@
-import { HStack,Text,Input, Button } from '@chakra-ui/react'
+import { HStack, Input, Button } from '@chakra-ui/react'
 import React, { useState } from 'react'
 import { useDispatch } from 'react-redux'
 import { setLiveComment } from '../Redux/Slice/liveChatSlice'
